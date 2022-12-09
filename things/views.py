@@ -3,4 +3,4 @@ from things.forms import ThingForm
 
 def home(request):
     form = ThingForm()
-    return render(request, 'hmoe.html', {'form': form})
+    return render(request, 'home.html', {'form': form})
